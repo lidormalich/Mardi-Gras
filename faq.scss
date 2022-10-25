@@ -10,11 +10,12 @@
 
 // var
 // $backColor: #008;
-$navColor: #9453A6;
+$shadowColor: #9453A6;
 $textColor: #0D0D0D;
 $textSize: 1.3rem;
 $headSize: 2em;
 $headColor: #8CBF3F;
+$textShadowColor: #F2CC0F;
 $baseWidth: 100vw;
 $basefontText: Roboto;
 $basefontHead: Pattaya;
@@ -43,4 +44,9 @@ h6 {
 
 .fontHackerU {
     font-family: $basefontText;
+}
+
+.shadow {
+    text-shadow: 0px 0px 30px $shadowColor;
+    color: $textShadowColor;
 }
