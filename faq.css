@@ -11,6 +11,11 @@ body {
   width: 100vw;
 }
 
+nav-hoverLidor:hover {
+  text-shadow: 0px 0px 50px #9453A6;
+  color: #F2CC0F;
+}
+
 .smallLogo {
   height: 50px;
   width: 50px;
