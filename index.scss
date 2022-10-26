@@ -1,0 +1,26 @@
+// Import all to main
+@import "globalSetup";
+
+
+
+
+.align-content-center,
+.justify-content-center {
+    height: auto;
+
+    @include destop {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    @include tablet {
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    @include mobile {
+        align-items: flex-start;
+        justify-content: left;
+    }
+}

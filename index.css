@@ -39,6 +39,28 @@ h6 {
   color: #f2cc0f;
 }
 
-.bgcPyellow {
-  background-color: #9453A6;
-}/*# sourceMappingURL=faq.css.map */
+.align-content-center,
+.justify-content-center {
+  height: auto;
+}
+@media (max-width: 1200px) {
+  .align-content-center,
+.justify-content-center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .align-content-center,
+.justify-content-center {
+    align-items: flex-start;
+    justify-content: left;
+  }
+}
+@media (max-width: 600px) {
+  .align-content-center,
+.justify-content-center {
+    align-items: flex-start;
+    justify-content: left;
+  }
+}/*# sourceMappingURL=index.css.map */

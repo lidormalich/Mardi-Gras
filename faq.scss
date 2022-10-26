@@ -1,55 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// Import all to main
+@import "globalSetup";
 
-// font
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
 
-// var
-// $backColor: #008;
-$shadowColor: #9453A6;
-$textColor: #0D0D0D;
-$textSize: 1.3rem;
-$headSize: 2em;
-$headColor: #8CBF3F;
-$textShadowColor: #F2CC0F;
-$baseWidth: 100vw;
-$basefontText: Roboto;
-$basefontHead: Pattaya;
-
-body {
-    // background-color: blueviolet;
-    background-image: url('img/background.jpg');
-    width: 100vw;
-}
-
-nav-hoverLidor:hover {
-    text-shadow: 0px 0px 50px $shadowColor;
-    color: $textShadowColor;
-}
-
-.smallLogo {
-    height: 50px;
-    width: 50px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $basefontHead;
-}
-
-.fontHackerU {
-    font-family: $basefontText;
-}
-
-.shadow {
-    text-shadow: 0px 0px 30px $shadowColor;
-    color: $textShadowColor;
+.bgcPyellow {
+    background-color: $shadowColor;
 }
