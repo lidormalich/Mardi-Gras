@@ -9,4 +9,16 @@
     float: left;
     margin-right: 3.5em;
     shape-outside: circle(50%);
+
+    @include destop {
+        margin-right: 3.5em;
+    }
+
+    @include tablet {
+        margin-right: 1.5em;
+    }
+
+    @include mobile {
+        margin-right: 1.2em;
+    }
 }

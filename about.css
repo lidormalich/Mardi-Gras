@@ -58,4 +58,19 @@ h6 {
   float: left;
   margin-right: 3.5em;
   shape-outside: circle(50%);
+}
+@media (max-width: 1200px) {
+  .mayor-pic-rounded {
+    margin-right: 3.5em;
+  }
+}
+@media (max-width: 800px) {
+  .mayor-pic-rounded {
+    margin-right: 1.5em;
+  }
+}
+@media (max-width: 600px) {
+  .mayor-pic-rounded {
+    margin-right: 1.2em;
+  }
 }/*# sourceMappingURL=about.css.map */
