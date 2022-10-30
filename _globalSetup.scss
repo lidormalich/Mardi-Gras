@@ -10,8 +10,10 @@
 
 // var
 // $backColor: #008;
-$shadowColor: #9453A6;
-$textColor: #0D0D0D;
+// $textWithShadowColor: #9453A6;
+// $textColor: #0D0D0D;
+$textWithShadowColor: #0D0D0D;
+$textColor: #9453A6;
 $textSize: 1.3rem;
 $headSize: 2em;
 $headColor: #8CBF3F;
@@ -20,6 +22,26 @@ $bgcColor: #f2f2f2;
 $baseWidth: 100vw;
 $basefontText: Roboto;
 $basefontHead: Pattaya;
+
+//*Mixing media queries*/
+@mixin destop {
+    @media (max-width:1600px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width:800px) {
+        @content
+    }
+}
+
+@mixin mobile {
+    @media (max-width:600px) {
+        @content
+    }
+}
+
 
 body {
     // background-color: blueviolet;
@@ -58,32 +80,39 @@ h6 {
 }
 
 .bgcHackerU {
-    color: $headColor;
+    // color: $headColor;
+    color: $textColor;
     background-color: $bgcColor ;
 }
 
 .shadow {
     text-shadow: 2px 1px 10px $headMainColor;
-    color: $shadowColor;
-    // text-shadow: 2px 1px 10px $shadowColor;
+    color: $textWithShadowColor;
+    // text-shadow: 2px 1px 10px $textWithShadowColor;
     // color: $headMainColor;
 }
 
-//*Mixing media queries*/
-@mixin destop {
-    @media (max-width:1200px) {
-        @content
-    }
-}
+.centerPcRightMobile {
+    // d-flex align-content-center justify-content-center
+    display: flex;
 
-@mixin tablet {
-    @media (max-width:800px) {
-        @content
-    }
-}
 
-@mixin mobile {
-    @media (max-width:600px) {
-        @content
+
+    @include destop {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    @include tablet {
+        align-items: flex-start;
+        justify-content: right;
+    }
+
+    @include mobile {
+        align-items: flex-start;
+        justify-content: right;
     }
 }
