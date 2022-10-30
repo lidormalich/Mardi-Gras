@@ -11,6 +11,18 @@ body {
   width: 100vw;
 }
 
+.btnNew {
+  background: #15d798;
+  border-radius: 1000px;
+  width: 200px;
+  height: 50px;
+  color: #ec0d0d;
+  display: inline-block;
+  font: normal bold 26px/50px "Open Sans", sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px #9306f8;
+}
+
 .smallLogo {
   height: 50px;
   width: 50px;
@@ -35,11 +47,15 @@ h6 {
 }
 
 .shadow {
-  text-shadow: 2px 1px 10px #9453A6;
-  color: #f2cc0f;
+  text-shadow: 2px 1px 10px #f2cc0f;
+  color: #9453A6;
 }
 
-.small-pic {
+.mayor-pic-rounded {
   width: 30vw;
   height: 35vh;
+  border-radius: 100%;
+  float: left;
+  margin-right: 3.5em;
+  shape-outside: circle(50%);
 }/*# sourceMappingURL=about.css.map */

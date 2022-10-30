@@ -2,7 +2,11 @@
 @import "globalSetup";
 
 
-.small-pic {
+.mayor-pic-rounded {
     width: 30vw;
     height: 35vh;
+    border-radius: 100%;
+    float: left;
+    margin-right: 3.5em;
+    shape-outside: circle(50%);
 }
