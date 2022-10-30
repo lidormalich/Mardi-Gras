@@ -11,6 +11,11 @@ body {
   width: 100vw;
 }
 
+.nav-link:hover {
+  text-shadow: 2px 1px 10px #f2cc0f;
+  color: #0D0D0D;
+}
+
 .btnNew {
   background: #15d798;
   border-radius: 1000px;
@@ -72,5 +77,43 @@ h6 {
   .centerPcRightMobile {
     align-items: flex-start;
     justify-content: right;
+  }
+}
+
+.displayOnlyInMobile {
+  display: none;
+}
+@media (max-width: 1600px) {
+  .displayOnlyInMobile {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .displayOnlyInMobile {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .displayOnlyInMobile {
+    display: block;
+  }
+}
+
+.displayOnlyInPC {
+  display: block;
+}
+@media (max-width: 1600px) {
+  .displayOnlyInPC {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .displayOnlyInPC {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .displayOnlyInPC {
+    display: none;
   }
 }/*# sourceMappingURL=media.css.map */

@@ -49,6 +49,13 @@ body {
     width: 100vw;
 }
 
+.nav-link:hover {
+    // background-color: #999;
+    text-shadow: 2px 1px 10px $headMainColor;
+    color: $textWithShadowColor;
+
+}
+
 .btnNew {
     background: #15d798;
     border-radius: 1000px;
@@ -80,7 +87,6 @@ h6 {
 }
 
 .bgcHackerU {
-    // color: $headColor;
     color: $textColor;
     background-color: $bgcColor ;
 }
@@ -88,15 +94,10 @@ h6 {
 .shadow {
     text-shadow: 2px 1px 10px $headMainColor;
     color: $textWithShadowColor;
-    // text-shadow: 2px 1px 10px $textWithShadowColor;
-    // color: $headMainColor;
 }
 
 .centerPcRightMobile {
-    // d-flex align-content-center justify-content-center
     display: flex;
-
-
 
     @include destop {
         align-items: center;
@@ -114,5 +115,39 @@ h6 {
     @include mobile {
         align-items: flex-start;
         justify-content: right;
+    }
+}
+
+.displayOnlyInMobile {
+    display: none;
+
+    @include destop {
+        display: none;
+
+    }
+
+    @include tablet {
+        display: block;
+    }
+
+    @include mobile {
+        display: block;
+    }
+}
+
+.displayOnlyInPC {
+    display: block;
+
+    @include destop {
+        display: block;
+
+    }
+
+    @include tablet {
+        display: none;
+    }
+
+    @include mobile {
+        display: none;
     }
 }
