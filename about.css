@@ -12,8 +12,12 @@ body {
 }
 
 .nav-link:hover {
-  text-shadow: 2px 1px 10px #f2cc0f;
-  color: #0D0D0D;
+  text-shadow: 2px 1px 10px #f2f2f2;
+  color: #9453A6;
+}
+
+.nav-link {
+  color: #f2f2f2;
 }
 
 .btnNew {
@@ -47,9 +51,8 @@ h6,
   font-family: Roboto;
 }
 
-.bgcHackerU {
-  color: #9453A6;
-  background-color: #f2f2f2;
+.fontColor {
+  color: #f2f2f2;
 }
 
 .shadow {
@@ -71,13 +74,13 @@ h6,
 @media (max-width: 800px) {
   .centerPcRightMobile {
     align-items: flex-start;
-    justify-content: right;
+    justify-content: left;
   }
 }
 @media (max-width: 600px) {
   .centerPcRightMobile {
     align-items: flex-start;
-    justify-content: right;
+    justify-content: left;
   }
 }
 
@@ -120,8 +123,8 @@ h6,
 }
 
 .mayor-pic-rounded {
-  width: 30vw;
-  height: 35vh;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   float: left;
   margin-right: 3.5em;

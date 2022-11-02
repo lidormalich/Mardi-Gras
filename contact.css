@@ -12,8 +12,12 @@ body {
 }
 
 .nav-link:hover {
-  text-shadow: 2px 1px 10px #f2cc0f;
-  color: #0D0D0D;
+  text-shadow: 2px 1px 10px #f2f2f2;
+  color: #9453A6;
+}
+
+.nav-link {
+  color: #f2f2f2;
 }
 
 .btnNew {
@@ -47,9 +51,8 @@ h6,
   font-family: Roboto;
 }
 
-.bgcHackerU {
-  color: #9453A6;
-  background-color: #f2f2f2;
+.fontColor {
+  color: #f2f2f2;
 }
 
 .shadow {
@@ -71,13 +74,13 @@ h6,
 @media (max-width: 800px) {
   .centerPcRightMobile {
     align-items: flex-start;
-    justify-content: right;
+    justify-content: left;
   }
 }
 @media (max-width: 600px) {
   .centerPcRightMobile {
     align-items: flex-start;
-    justify-content: right;
+    justify-content: left;
   }
 }
 
@@ -173,33 +176,26 @@ textarea {
 
 .mapouter {
   position: relative;
-  text-align: right;
+  text-align: center;
   height: 500px;
   width: 600px;
 }
 
-.circleBase {
-  color: #f2f2f2;
-  border: 2px solid #000;
-  border-radius: 5%;
-  background-color: #0D0D0D;
-  display: inline-block;
-}
-.circleBase a:link {
+.details a:link {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #f2cc0f;
 }
-.circleBase a:visited {
+.details a:visited {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #f2cc0f;
 }
-.circleBase a:hover {
+.details a:hover {
   text-decoration: underline;
-  color: #f2f2f2;
+  color: #f2cc0f;
 }
-.circleBase a:active {
+.details a:active {
   text-decoration: underline;
-  color: #f2f2f2;
+  color: #f2cc0f;
 }
 
 .bgcContac {

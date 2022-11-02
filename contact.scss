@@ -56,7 +56,7 @@ textarea {
 
 .mapouter {
     position: relative;
-    text-align: right;
+    text-align: center;
     height: 500px;
     width: 600px;
 }
@@ -65,31 +65,27 @@ textarea {
 
 
 // Round
-.circleBase {
-    color: $bgcColor ;
-    border: 2px solid #000;
-    border-radius: 5%;
-    background-color: $textWithShadowColor;
-    display: inline-block;
+.details {
+
 
     a:link {
         text-decoration: none;
-        color: $bgcColor ;
+        color: $headMainColor ;
     }
 
     a:visited {
         text-decoration: none;
-        color: $bgcColor ;
+        color: $headMainColor ;
     }
 
     a:hover {
         text-decoration: underline;
-        color: $bgcColor ;
+        color: $headMainColor ;
     }
 
     a:active {
         text-decoration: underline;
-        color: $bgcColor ;
+        color: $headMainColor ;
     }
 }
 

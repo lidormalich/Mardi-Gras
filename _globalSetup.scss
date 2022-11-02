@@ -52,8 +52,14 @@ body {
 
 .nav-link:hover {
     // background-color: #999;
-    text-shadow: 2px 1px 10px $headMainColor;
-    color: $textWithShadowColor;
+    text-shadow: 2px 1px 10px $bgcColor;
+    color: $textColor;
+
+}
+
+.nav-link {
+
+    color: $bgcColor;
 
 }
 
@@ -88,9 +94,8 @@ h6,
     font-family: $basefontText;
 }
 
-.bgcHackerU {
-    color: $textColor;
-    background-color: $bgcColor ;
+.fontColor {
+    color: $bgcColor;
 }
 
 .shadow {
@@ -115,12 +120,12 @@ h6,
 
     @include tablet {
         align-items: flex-start;
-        justify-content: right;
+        justify-content: left;
     }
 
     @include mobile {
         align-items: flex-start;
-        justify-content: right;
+        justify-content: left;
     }
 }
 
