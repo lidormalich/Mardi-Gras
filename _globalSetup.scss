@@ -45,7 +45,8 @@ $basefontHead: Pattaya;
 
 body {
     // background-color: blueviolet;
-    background-image: url('img/background.jpg');
+    // background-image: url('img/background.jpg');
+    background-image: url('img/bgc.webp');
     width: 100vw;
 }
 
@@ -78,7 +79,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.fontHackerUTitle {
     font-family: $basefontHead;
 }
 
@@ -92,9 +94,13 @@ h6 {
 }
 
 .shadow {
-    text-shadow: 2px 1px 10px $headMainColor;
-    color: $textWithShadowColor;
+    text-shadow: 2px 1px 10px $textWithShadowColor;
+    color: $headMainColor;
 }
+
+//     text-shadow: 2px 1px 10px $headMainColor;
+//     color: $textWithShadowColor;
+// }
 
 .centerPcRightMobile {
     display: flex;

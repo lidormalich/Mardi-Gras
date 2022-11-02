@@ -11,6 +11,11 @@ textarea {
     resize: none;
 }
 
+.shadowWhite {
+    text-shadow: 5px 3px 30px $textColor;
+    color: black;
+    font-weight: bold;
+}
 
 .myButton {
     background-color: $headMainColor;
@@ -55,6 +60,39 @@ textarea {
     height: 500px;
     width: 600px;
 }
+
+
+
+
+// Round
+.circleBase {
+    color: $bgcColor ;
+    border: 2px solid #000;
+    border-radius: 5%;
+    background-color: $textWithShadowColor;
+    display: inline-block;
+
+    a:link {
+        text-decoration: none;
+        color: $bgcColor ;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: $bgcColor ;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: $bgcColor ;
+    }
+
+    a:active {
+        text-decoration: underline;
+        color: $bgcColor ;
+    }
+}
+
 
 
 // Forms

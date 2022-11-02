@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("img/background.jpg");
+  background-image: url("img/bgc.webp");
   width: 100vw;
 }
 
@@ -38,7 +38,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.fontHackerUTitle {
   font-family: Pattaya;
 }
 
@@ -52,8 +53,8 @@ h6 {
 }
 
 .shadow {
-  text-shadow: 2px 1px 10px #f2cc0f;
-  color: #0D0D0D;
+  text-shadow: 2px 1px 10px #0D0D0D;
+  color: #f2cc0f;
 }
 
 .centerPcRightMobile {

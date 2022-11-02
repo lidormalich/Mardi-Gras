@@ -53,58 +53,54 @@
         <h1 class="display-5 shadow lineText">I’d love to hear your feedback at your earliest convenience.</h1>
         <div class="d-flex flex-row bd-highlight mb-3">
 
-            <div class="right-side row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-                <div class="address details col">
+            <div class="right-side row row-cols-2 row-cols-lg-2 g-2 g-lg-2 ">
+
+                <div class="address details col circleBase shadow fontHackerU">
                     <i class="fas fa-map-marker-alt"></i>
                     <div class="topic">Address</div>
                     <div class="text-one">Surkhet, NP12</div>
                     <div class="text-two">Birendranagar 06</div>
                 </div>
-
-                <div class="phone details col">
-                    <i class="fas fa-phone-alt"></i>
-                    <div class="topic">Phone</div>
-                    <div class="text-one"><a href="tel:+0096 3434 5678">+0096 3434 5678</a></div>
-                    <div class="text-two"><a href="tel:+0096 3434 5678">+0096 3434 5678</a> </div>
-                </div>
-
-                <div class="email details col">
+                <div class="email details col circleBase fontHackerU shadow">
                     <i class="fas fa-envelope"></i>
                     <div class="topic">Email</div>
-                    <div class="text-one"> <a href="mailto:codinglab@gmail.com">codinglab@gmail.com</a> </div>
-                    <div class="text-two"><a href="mailto:codinglab@gmail.com">info.codinglab@gmail.com</a>
+                    <div class="text-one "> <a href="mailto:press@mardigrasneworleans.com">press@mardigrasneworleans</a>
+                    </div>
+                    <div class="text-two"><a href="mailto:press@mardigrasneworleans.com">.com</a>
+                    </div>
+                </div>
+                <div class=" details col h4 fontHackerU shadowWhite">
+                    <!-- <div class="topic">Phone</div> -->
+                    <div class="text-one">If you have any questions, comments, suggestions or just want to get in touch,
+                        then you can do so here:
                     </div>
                 </div>
 
-                <!-- <p class="fontHackerU">If you have any work from me or any types of quries related to my tutorial,
-                    you can
-                    send me
-                    message
-                    from here. It's my pleasure to help you.</p> -->
-                <form action="#">
+                <form id="sendCU">
                     <div class="input-box">
-                        <input type="text" placeholder="Enter your First Name" class="fontHackerU">
+                        <input type="text" id="fname" placeholder="Enter your First Name" class="fontHackerU">
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Enter your Last Name" class="fontHackerU">
+                        <input type="text" id="lname" placeholder="Enter your Last Name" class="fontHackerU">
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Enter your email" class="fontHackerU">
+                        <input type="text" id="email" placeholder="Enter your email" class="fontHackerU">
                     </div>
                     <div class="input-box">
-                        <input type="tel" placeholder="Enter your Phone" class="fontHackerU">
+                        <input type="tel" id="phone" placeholder="Enter your Phone" class="fontHackerU">
                     </div>
                     <div class="input-box message-box">
-                        <textarea type="text" placeholder="Enter your message" class="fontHackerU"></textarea>
+                        <textarea type="text" id="msg" placeholder="Enter your message" class="fontHackerU"></textarea>
                     </div>
                     <div class="button">
-                        <input type="button" value="Send Now">
+                        <!-- <input type="button" value="Send Now" id="theClick"> -->
+                        <button id="theClick">sender</button>
                     </div>
                 </form>
             </div>
             <!-- send -->
 
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <!-- <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
                     <img src="..." class="rounded mr-2" alt="...">
                     <strong class="mr-auto">Bootstrap</strong>
@@ -116,7 +112,7 @@
                 <div class="toast-body">
                     Hello, world! This is a toast message.
                 </div>
-            </div>
+            </div> -->
 
 
 
@@ -124,16 +120,16 @@
 
 
 
-            <div>
-                <h1>MAP.</h1>
-                <div class="mapouter">
-                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=new%20orleans&t=&z=11&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
-                    </div>
+
+            <!-- <h1>MAP.</h1> -->
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=new%20orleans&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
                 </div>
             </div>
         </div>
+
 
     </div>
 

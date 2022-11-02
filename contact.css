@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("img/background.jpg");
+  background-image: url("img/bgc.webp");
   width: 100vw;
 }
 
@@ -38,7 +38,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.fontHackerUTitle {
   font-family: Pattaya;
 }
 
@@ -52,8 +53,8 @@ h6 {
 }
 
 .shadow {
-  text-shadow: 2px 1px 10px #f2cc0f;
-  color: #0D0D0D;
+  text-shadow: 2px 1px 10px #0D0D0D;
+  color: #f2cc0f;
 }
 
 .centerPcRightMobile {
@@ -128,6 +129,12 @@ textarea {
   resize: none;
 }
 
+.shadowWhite {
+  text-shadow: 5px 3px 30px #9453A6;
+  color: black;
+  font-weight: bold;
+}
+
 .myButton {
   background-color: #f2cc0f;
   border-radius: 28px;
@@ -169,6 +176,30 @@ textarea {
   text-align: right;
   height: 500px;
   width: 600px;
+}
+
+.circleBase {
+  color: #f2f2f2;
+  border: 2px solid #000;
+  border-radius: 5%;
+  background-color: #0D0D0D;
+  display: inline-block;
+}
+.circleBase a:link {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.circleBase a:visited {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.circleBase a:hover {
+  text-decoration: underline;
+  color: #f2f2f2;
+}
+.circleBase a:active {
+  text-decoration: underline;
+  color: #f2f2f2;
 }
 
 .bgcContac {
