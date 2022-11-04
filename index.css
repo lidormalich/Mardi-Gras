@@ -84,6 +84,25 @@ h6,
   }
 }
 
+.displayOnlyInPc {
+  display: block;
+}
+@media (max-width: 1600px) {
+  .displayOnlyInPc {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .displayOnlyInPc {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .displayOnlyInPc {
+    display: none;
+  }
+}
+
 .displayOnlyInMobile {
   display: none;
 }

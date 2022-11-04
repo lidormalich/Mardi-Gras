@@ -129,12 +129,28 @@ h6,
     }
 }
 
+.displayOnlyInPc {
+    display: block;
+
+    @include destop {
+        display: block;
+
+    }
+
+    @include tablet {
+        display: none;
+    }
+
+    @include mobile {
+        display: none;
+    }
+}
+
 .displayOnlyInMobile {
     display: none;
 
     @include destop {
         display: none;
-
     }
 
     @include tablet {
