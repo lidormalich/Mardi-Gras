@@ -1,6 +1,14 @@
 // Import all to main
 @import "globalSetup";
 
+.imgRes {
+    width: 75vw;
+    height: auto;
+    // object-fit: cover;
+
+}
+
+
 
 .floatLeft {
     float: left;
@@ -10,7 +18,7 @@
 .fit {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 
 }
 

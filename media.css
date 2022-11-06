@@ -77,7 +77,8 @@ p {
 }
 
 .shadow,
-h1 {
+h1,
+h2 {
   text-shadow: 2px 1px 10px #0D0D0D;
   color: #f2cc0f;
 }
@@ -144,21 +145,9 @@ h1 {
   }
 }
 
-.displayOnlyInPC {
-  display: block;
-}
-@media (max-width: 1600px) {
-  .displayOnlyInPC {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .displayOnlyInPC {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .displayOnlyInPC {
-    display: none;
-  }
+.alignYoutubeCenter {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }/*# sourceMappingURL=media.css.map */

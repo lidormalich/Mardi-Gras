@@ -77,7 +77,8 @@ p {
 }
 
 .shadow,
-h1 {
+h1,
+h2 {
   text-shadow: 2px 1px 10px #0D0D0D;
   color: #f2cc0f;
 }
@@ -144,23 +145,9 @@ h1 {
   }
 }
 
-.displayOnlyInPC {
-  display: block;
-}
-@media (max-width: 1600px) {
-  .displayOnlyInPC {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .displayOnlyInPC {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .displayOnlyInPC {
-    display: none;
-  }
+.imgRes {
+  width: 75vw;
+  height: auto;
 }
 
 .floatLeft {
@@ -171,7 +158,7 @@ h1 {
 .fit {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 .align-content-center,

@@ -77,7 +77,8 @@ p {
 }
 
 .shadow,
-h1 {
+h1,
+h2 {
   text-shadow: 2px 1px 10px #0D0D0D;
   color: #f2cc0f;
 }
@@ -144,25 +145,6 @@ h1 {
   }
 }
 
-.displayOnlyInPC {
-  display: block;
-}
-@media (max-width: 1600px) {
-  .displayOnlyInPC {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .displayOnlyInPC {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .displayOnlyInPC {
-    display: none;
-  }
-}
-
 .lineText {
   font-family: Pattaya;
 }
@@ -171,6 +153,13 @@ textarea {
   width: 350px;
   height: 200px;
   resize: none;
+}
+
+.centerItem {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .shadowWhite {
@@ -206,20 +195,6 @@ textarea {
 .myButton:active {
   position: relative;
   top: 1px;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
-}
-
-.mapouter {
-  position: relative;
-  text-align: center;
-  height: 500px;
-  width: 600px;
 }
 
 .details a:link {

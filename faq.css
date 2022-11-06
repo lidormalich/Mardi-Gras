@@ -77,7 +77,8 @@ p {
 }
 
 .shadow,
-h1 {
+h1,
+h2 {
   text-shadow: 2px 1px 10px #0D0D0D;
   color: #f2cc0f;
 }
@@ -141,24 +142,5 @@ h1 {
 @media (max-width: 600px) {
   .displayOnlyInMobile {
     display: block;
-  }
-}
-
-.displayOnlyInPC {
-  display: block;
-}
-@media (max-width: 1600px) {
-  .displayOnlyInPC {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .displayOnlyInPC {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .displayOnlyInPC {
-    display: none;
   }
 }/*# sourceMappingURL=faq.css.map */

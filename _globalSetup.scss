@@ -44,8 +44,6 @@ $basefontHead: Pattaya;
 
 
 body {
-    // background-color: blueviolet;
-    // background-image: url('img/background.jpg');
     background-image: url('img/bgc.webp');
     opacity: 0.9;
     width: 100vw;
@@ -115,7 +113,8 @@ p {
 }
 
 .shadow,
-h1 {
+h1,
+h2 {
     text-shadow: 2px 1px 10px $textWithShadowColor;
     color: $headMainColor;
 }
@@ -174,22 +173,5 @@ h1 {
 
     @include mobile {
         display: block;
-    }
-}
-
-.displayOnlyInPC {
-    display: block;
-
-    @include destop {
-        display: block;
-
-    }
-
-    @include tablet {
-        display: none;
-    }
-
-    @include mobile {
-        display: none;
     }
 }
