@@ -24,34 +24,19 @@ textarea {
     font-weight: bold;
 }
 
-.myButton {
-    background-color: $headMainColor;
-    border-radius: 28px;
-    border: 1px solid $headColor;
-    display: inline-block;
-    cursor: pointer;
-    color: $bgcColor;
-    font-family: $basefontHead;
+.btn-outline-danger {
+    border: 1px solid $textColor;
     font-size: 1rem;
-    padding: 16px 31px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px $textWithShadowColor;
+    font-family: $basefontHead;
+    color: $bgcColor;
+    cursor: pointer;
 }
 
-.myButton:hover {
+.btn-outline-danger:hover {
+    border: 1px solid $bgcColor;
+    background-color: $textColor;
     text-shadow: 2px 1px 10px $headMainColor;
     color: $textWithShadowColor;
-}
-
-.myButton:hover {
-    text-shadow: 2px 1px 10px $headMainColor;
-    color: $textWithShadowColor;
-}
-
-.myButton:active {
-    position: relative;
-    top: 1px;
-
 }
 
 

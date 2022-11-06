@@ -9,13 +9,13 @@ function go2() {
     const phone = document.getElementById('phone').value;
     const msg = document.getElementById('msg').value;
     if ((fname == '' || lname == '' || email == '' || phone == '' || msg == '')) {
-        alert("One or more info less");
+        alert("1 or more of the data in the form are missing");
         return;
     }
     let result = email.includes("@");
     let result2 = email.includes(".");
     if (!(result && result2)) {
-        alert('mail check problem');
+        alert('Result : BAD  of Email Checker, Try again..');
     }
 
 }
