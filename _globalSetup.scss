@@ -9,9 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
 
 // var
-// $backColor: #008;
-// $textWithShadowColor: #9453A6;
-// $textColor: #0D0D0D;
 $textWithShadowColor: #0D0D0D;
 $textColor: #9453A6;
 $textSize: 1.3rem;
@@ -60,17 +57,6 @@ body {
     color: $bgcColor;
 }
 
-.btnNew {
-    background: #15d798;
-    border-radius: 1000px;
-    width: 200px;
-    height: 50px;
-    color: #ec0d0d;
-    display: inline-block;
-    font: normal bold 26px/50px "Open Sans", sans-serif;
-    text-align: center;
-    text-shadow: 3px 3px #9306f8;
-}
 
 .smallLogo {
     height: 50px;
