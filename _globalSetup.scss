@@ -47,6 +47,7 @@ body {
     // background-color: blueviolet;
     // background-image: url('img/background.jpg');
     background-image: url('img/bgc.webp');
+    opacity: 0.9;
     width: 100vw;
 }
 
@@ -58,9 +59,7 @@ body {
 }
 
 .nav-link {
-
     color: $bgcColor;
-
 }
 
 .btnNew {
@@ -94,18 +93,34 @@ h6,
     font-family: $basefontText;
 }
 
-.fontColor {
+p {
     color: $bgcColor;
+    font-family: $basefontText;
 }
 
-.shadow {
+.smallSocialIcon {
+    width: 5vw;
+
+    @include destop {
+        width: 15px;
+    }
+
+    @include tablet() {
+        width: 5vw;
+    }
+
+    @include mobile() {
+        width: 5vw;
+    }
+}
+
+.shadow,
+h1 {
     text-shadow: 2px 1px 10px $textWithShadowColor;
     color: $headMainColor;
 }
 
-//     text-shadow: 2px 1px 10px $headMainColor;
-//     color: $textWithShadowColor;
-// }
+
 
 .centerPcRightMobile {
     display: flex;

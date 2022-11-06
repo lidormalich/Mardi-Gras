@@ -8,6 +8,7 @@
 
 body {
   background-image: url("img/bgc.webp");
+  opacity: 0.9;
   width: 100vw;
 }
 
@@ -51,11 +52,32 @@ h6,
   font-family: Roboto;
 }
 
-.fontColor {
+p {
   color: #f2f2f2;
+  font-family: Roboto;
 }
 
-.shadow {
+.smallSocialIcon {
+  width: 5vw;
+}
+@media (max-width: 1600px) {
+  .smallSocialIcon {
+    width: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .smallSocialIcon {
+    width: 5vw;
+  }
+}
+@media (max-width: 600px) {
+  .smallSocialIcon {
+    width: 5vw;
+  }
+}
+
+.shadow,
+h1 {
   text-shadow: 2px 1px 10px #0D0D0D;
   color: #f2cc0f;
 }
@@ -139,6 +161,11 @@ h6,
   .displayOnlyInPC {
     display: none;
   }
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 0.5em;
 }
 
 .fit {
