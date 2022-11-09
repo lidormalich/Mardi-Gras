@@ -111,6 +111,8 @@ h2 {
 @media (max-width: 600px) {
   .displayOnlyInPc {
     display: none;
+    visibility: hidden;
+    display: none;
   }
 }
 
