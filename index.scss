@@ -9,7 +9,34 @@
 
 }
 
+.bgc-popup {
+    background-color: $textColor;
+}
 
+.btn-primary {
+    background-color: $textColor;
+    border: 1px solid $textColor;
+
+    &:hover {
+        background-color: $textColor;
+        border: 1px solid $textColor;
+    }
+}
+
+.btn-secondary {
+    background-color: $headColor;
+    color: $textWithShadowColor;
+    border: 1px solid $textColor;
+
+    &:hover {
+        background-color: $headColor;
+        border: 1px solid $textColor;
+    }
+}
+
+.modal-body {
+    font-family: $basefontText;
+}
 
 .floatLeft {
     float: left;

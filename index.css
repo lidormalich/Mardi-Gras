@@ -140,6 +140,33 @@ h2 {
   height: auto;
 }
 
+.bgc-popup {
+  background-color: #9453A6;
+}
+
+.btn-primary {
+  background-color: #9453A6;
+  border: 1px solid #9453A6;
+}
+.btn-primary:hover {
+  background-color: #9453A6;
+  border: 1px solid #9453A6;
+}
+
+.btn-secondary {
+  background-color: #8CBF3F;
+  color: #0D0D0D;
+  border: 1px solid #9453A6;
+}
+.btn-secondary:hover {
+  background-color: #8CBF3F;
+  border: 1px solid #9453A6;
+}
+
+.modal-body {
+  font-family: Roboto;
+}
+
 .floatLeft {
   float: left;
   margin-right: 0.5em;
