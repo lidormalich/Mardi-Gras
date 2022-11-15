@@ -133,4 +133,8 @@ h2 {
   .displayOnlyInMobile {
     display: block;
   }
+}
+
+.textColor {
+  color: #0D0D0D;
 }/*# sourceMappingURL=faq.css.map */
